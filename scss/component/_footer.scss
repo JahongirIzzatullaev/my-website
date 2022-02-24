@@ -1,6 +1,6 @@
 
 /*-------------------------------------------------------
-20. Footer css 
+20. Footer css
 ---------------------------------------------------------*/
 
 
@@ -33,7 +33,7 @@
 .input-style-2 {
 	padding: 2rem 2rem 1.3rem 2rem;
     border: none;
-    border-bottom: 2px solid rgb(204, 204, 219);
+    border-bottom: 2px solid #fff;
     -webkit-border-radius: 5px;
     border-radius: 5px;
     outline: none;
@@ -41,7 +41,7 @@
 	background-color: transparent;
 	&::placeholder {
 		font-size: 1.6rem;
-		color: #787781;
+		color: #fff;
 		opacity: 1;
 	}
 }

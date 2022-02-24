@@ -8,23 +8,23 @@
 -----------------------------------
 
 1. Variable
-2. Mixins 
-3. Typography 
-4. Navbar 
-5. Theme default css 
-6. Hero css 
-7. About css 
-8. Progress Bar css 
+2. Mixins
+3. Typography
+4. Navbar
+5. Theme default css
+6. Hero css
+7. About css
+8. Progress Bar css
 9. Experience css
-10. Fun Fact css 
-11. FAQS  
+10. Fun Fact css
+11. FAQS
 12. Service css
 13. Pricing css
  14. Portfolio
- 15. Feedback css 
- 16. Promo css 
+ 15. Feedback css
+ 16. Promo css
   17. Blog css
- 18. Contact css 
+ 18. Contact css
  19. Blog Single css
 */
 /*-------------------------------------------------------
@@ -44,11 +44,11 @@
   --light-color: #EFEFEF;
   --lightgrey-color: #ccc;
   --font-1: 'Hind', sans-serif;
-  --font-2: 'Poppins', sans-serif; 
+  --font-2: 'Poppins', sans-serif;
  }
 
 /*-------------------------------------------------------
-2. Mixins 
+2. Mixins
 ---------------------------------------------------------*/
 .hv:hover {
   background-color: var(--white-color);
@@ -56,7 +56,7 @@
   box-shadow: 0px 15px 20px 0px rgba(77, 65, 225, 0.15); }
 
 /*-------------------------------------------------------
-3. Typography 
+3. Typography
 ---------------------------------------------------------*/
 *, *:before, *:after {
   box-sizing: inherit; }
@@ -184,13 +184,13 @@ input:focus,
 textarea:focus,
 select:focus {
   outline: none;
-  box-shadow: inherit; 
+  box-shadow: inherit;
  }
 
   span.colored{
 	  color:#F9CA22 !important;
   }
- 
+
  /* bounce-animate */
 .bounce-animate {
   animation-name: float-bob;
@@ -220,7 +220,7 @@ select:focus {
     transform: translateY(-10px); }
   100% {
     -webkit-transform: translateY(-20px);
-    transform: translateY(-20px); } 
+    transform: translateY(-20px); }
 }
 .line_wrap {
 	top: 0px;
@@ -289,7 +289,7 @@ select:focus {
   }
   50% {
     top: 50%;
-    opacity: .5;	
+    opacity: .5;
   }
   100% {
     top: 100%;
@@ -303,7 +303,7 @@ select:focus {
   }
   50% {
     bottom: 50%;
-    opacity: .5;	
+    opacity: .5;
   }
   100% {
     bottom: 100%;
@@ -362,14 +362,14 @@ select:focus {
   0% {
     opacity: 0; }
   100% {
-    opacity: 1; } 
-	} 
+    opacity: 1; }
+	}
 
 /* css animation - end
 ================================================== */
 
 /*-------------------------------------------------------
-4. Navbar 
+4. Navbar
 ---------------------------------------------------------*/
 
 .custom-nav {
@@ -446,10 +446,10 @@ ul.navbar-nav li a {
 }
 .bsnav-mobile ul.navbar-nav li a.active,
 .bsnav-mobile ul.navbar-nav li a.hover{
-    color: var(--yollow-color) !important;	
+    color: var(--yollow-color) !important;
 }
 .bsnav-mobile ul.navbar-nav li a{
-    color: var(--white-color) !important;	
+    color: var(--white-color) !important;
 }
 .sd-nav .bsnav-sidebar .navbar-toggler {
     position: inherit;
@@ -471,7 +471,7 @@ ul.navbar-nav li a {
 
 .navbar-toggler .navbar-toggler-icon, .navbar-toggler .navbar-toggler-icon::after, .navbar-toggler .navbar-toggler-icon::before {
     width: 80%;
-    background-color: var(--yollow-color);	
+    background-color: var(--yollow-color);
     padding-right: 5px !important;
 }
 .navbar-toggler.toggler-spring .navbar-toggler-icon {
@@ -531,7 +531,7 @@ span.profile_name {
 
 .bsnav-sidebar .navbar-nav .nav-item a.nav-link {
     position: relative;
-	transition:all ease .4s;	
+	transition:all ease .4s;
 }
 
 .bsnav-sidebar .navbar-nav .nav-item.menu-item-has-children > .nav-link {
@@ -612,7 +612,7 @@ p.copyright {
     box-shadow: 0px 15px 20px 0px rgba(77, 65, 225, 0.15); }
 
 /*-------------------------------------------------------
-5. Theme default css 
+5. Theme default css
 ---------------------------------------------------------*/
 
 .fz-20 {
@@ -853,12 +853,12 @@ p.copyright {
   background: #F9CA21;
   transition:all ease .5s;
   }
-  
+
   .theme-btn:hover {
     color: var(--white-color);
     box-shadow: 0px 15px 20px 0px rgba(77, 65, 225, 0.15);
 	 padding: 1.7rem 2.8rem;
-	 letter-spacing:.1rem; 
+	 letter-spacing:.1rem;
 }
 
 /*theme title*/
@@ -913,7 +913,7 @@ footer.footer-2,
 }
 
 /*-------------------------------------------------------
-6. Hero css 
+6. Hero css
 ---------------------------------------------------------*/
 
 .hero-section-bg {
@@ -1025,7 +1025,7 @@ a.top-contact-btn {
   background-size: cover;
   background-position: bottom center;
   background-repeat: no-repeat;
-  position: relative; 
+  position: relative;
   padding-bottom:100px;
   }
 .right-social-icon{
@@ -1072,7 +1072,7 @@ p.text-16.header_type_text span.typed {
     position: relative;
     z-index: 5;
 }
- .head-top-contact span.phone_contact, 
+ .head-top-contact span.phone_contact,
  .head-top-contact span.email_contact {
     font-size: 18px;
     font-weight: 500;
@@ -1165,13 +1165,13 @@ p.text-16.header_type_text span.typed {
 
 
 /*-------------------------------------------------------
-7. About css 
+7. About css
 ---------------------------------------------------------*/
 
 .about-area {
     position: relative;
 }
-   
+
  .about-wpr {
     position: relative;
 }
@@ -1218,12 +1218,12 @@ p.text-16.header_type_text span.typed {
 
 .about-cn ul {
   display: inline;
-  
+
   }
   .about-cn ul li {
     display: flex;
     align-items: center;
-    font-size: 1.8rem; 
+    font-size: 1.8rem;
 }
 .about-cn ul li i {
     color: var(--yollow-color) !important;
@@ -1236,8 +1236,8 @@ p.text-16.header_type_text span.typed {
 }
 
 .about-right {
-  padding-left: 1rem; 
-  padding-right: 1rem; 
+  padding-left: 1rem;
+  padding-right: 1rem;
   }
   .about-right h2 {
     margin-bottom: 3rem; }
@@ -1245,7 +1245,7 @@ p.text-16.header_type_text span.typed {
     margin-bottom: 3rem; }
 
 /*-------------------------------------------------------
-8. Progress Bar css 
+8. Progress Bar css
 ---------------------------------------------------------*/
 .progress-left {
     padding-right: 25px;
@@ -1295,7 +1295,7 @@ p.text-16.header_type_text span.typed {
 .exp-area {
   background-size: cover;
   background-repeat: no-repeat;
-  background-position: center center; 
+  background-position: center center;
   width:100%;
   background:#f7f7f7;
   }
@@ -1361,9 +1361,9 @@ p.text-16.header_type_text span.typed {
 .fun-icon i,
 .exp-icon i {
     font-size: 3.2rem;
-	color:var(--yollow-color) !important;	
+	color:var(--yollow-color) !important;
 	}
-	
+
   .exp-box h4 {
     font-weight: 500;
     line-height: 1;
@@ -1375,7 +1375,7 @@ p.text-16.header_type_text span.typed {
     font-size: 1.4rem; }
 
 /*-------------------------------------------------------
-10. Fun Fact css 
+10. Fun Fact css
 ---------------------------------------------------------*/
 .hireme-area {
   background-size: cover;
@@ -1445,7 +1445,7 @@ a.hire-btn:hover {
 	}
   .fun-icon i{
 	color:var(--yollow-color) !important;
-  }	
+  }
   .fun-fact .fun-desc .timer {
     font-size: 2.2rem;
     font-weight: 700;
@@ -1455,13 +1455,13 @@ a.hire-btn:hover {
 .counter-left-pic {
   position: relative;
   z-index: 1; }
-  
+
   .counter-left-pic .ply-btn {
     position: absolute;
     bottom: 8rem;
     left: 64%;
     transform: translate(-50%, 0); }
-	
+
 .hire-btn {
     position: relative;
 	padding-top:1.4rem;
@@ -1474,7 +1474,7 @@ a.hire-btn:hover {
 }
 
 /*-------------------------------------------------------
-11. FAQS  
+11. FAQS
 ---------------------------------------------------------*/
 
 .fq-area {
@@ -1495,7 +1495,7 @@ a.hire-btn:hover {
   margin-bottom: -1px;
   background-color: #fff;
   border: 1px solid #f6f5ff; }
-  
+
 .card-header {
     border: none;
 	padding:0px !important;
@@ -1512,7 +1512,7 @@ button.accordion-button {
 button.accordion-button:hover {
     color: #47416f;
 }
- 
+
 .accordion-item:not(last-child) {
   margin-bottom: 3rem; }
 
@@ -1521,7 +1521,7 @@ button.accordion-button:hover {
   font-size: 1.8rem;
   color: var(--heading-color);
   background-color: var(--bg-color);
-  font-weight: 500; 
+  font-weight: 500;
   text-decoration:none;
   }
 
@@ -1575,7 +1575,7 @@ button.accordion-button:hover {
 
 .faq-pic img {
     position: relative;
-}	
+}
 
 /*-------------------------------------------------------
 12. Service css
@@ -1633,7 +1633,7 @@ button.accordion-button:hover {
     color: #3b3758;
     text-transform: capitalize;
     }
-	
+
   .service-box ul {
     display: flex;
     flex-direction: column;
@@ -1642,7 +1642,7 @@ button.accordion-button:hover {
       position: relative;
       z-index: 1;
       padding-left: 2.7rem; }
-	  
+
     .service-box ul li::before {
         position: absolute;
         font-family: 'Font Awesome\ 5 Free';
@@ -1682,7 +1682,7 @@ button.accordion-button:hover {
     position: relative;
 }
 
-	
+
 /*-------------------------------------------------------
 13. Pricing css
 ---------------------------------------------------------*/
@@ -1775,7 +1775,7 @@ button.accordion-button:hover {
 .service-one i {
     color: var(--heading-color);
 }
-.price-icon-two i, 
+.price-icon-two i,
 .service-two i {
     color: var(--heading-color);
 }
@@ -1791,7 +1791,7 @@ button.accordion-button:hover {
     font-size: 3.2rem;
     padding-left: 17px;
 }
-	
+
 
 /*===========================
  14. Portfolio
@@ -1861,7 +1861,7 @@ ul.work_menu {
 }
 .work_menu a.active:before {
 	visibility:visible;
-	margin-left: -14px;   
+	margin-left: -14px;
 	width:100%;
 }
 .work_menu a.active,
@@ -1949,7 +1949,7 @@ li.list-inline-item {
 }
 
 /*-------------------------------------------------------
-15. Feedback css 
+15. Feedback css
 ---------------------------------------------------------*/
 .feedback-area {
   @inclide bg-cs; }
@@ -1984,7 +1984,7 @@ li.list-inline-item {
     background-color: var(--white-color);
 }
   .feedback-box .feedback-pc {
-    margin-bottom: 2.2rem; 
+    margin-bottom: 2.2rem;
 	text-align:center;
 }
 .feedback-desc img {
@@ -1997,7 +1997,7 @@ li.list-inline-item {
 .feedback-pc i {
     font-size: 4rem;
     color: var(--yollow-color) !important;
-}	
+}
   .feedback-box p {
     margin-bottom: 4rem; }
   .feedback-box .feedback-desc {
@@ -2038,7 +2038,7 @@ li.list-inline-item {
 
 
 /*-------------------------------------------------------
-16. Promo css 
+16. Promo css
 ---------------------------------------------------------*/
 
 
@@ -2097,7 +2097,7 @@ li.list-inline-item {
     font-size: 2rem;
     font-weight: 500;
     margin-bottom: 3rem;
-    line-height: 1.4; 
+    line-height: 1.4;
 	transition:all .4s ease-in-out;
 	}
     .blog-box .blog-info .blog-title:hover {
@@ -2132,18 +2132,18 @@ li.list-inline-item {
   padding: 3rem; }
 
 /*-------------------------------------------------------
-18. Contact css 
+18. Contact css
 ---------------------------------------------------------*/
 .footer {
   position: relative;
   background-size: cover;
   width:100%;
-  background:#edbc11; 
+  background:#13162c;
   background-repeat: no-repeat;
-  background-position: center center; 
+  background-position: center center;
 }
 span.resume-title.contact-title {
-    color: #f8e399;
+    color: white;
 }
 .contact-area {
     position: relative;
@@ -2187,7 +2187,7 @@ button.theme-btn.send-me {
 .input-style-2 {
   padding: 2rem 2rem 1.3rem 2rem;
   border: none;
-  border-bottom: 2px solid var(--black-color);
+  border-bottom: 2px solid #fff;
   -webkit-border-radius: 5px;
   border-radius: 0px;
   outline: none;
@@ -2195,10 +2195,11 @@ button.theme-btn.send-me {
   background-color: transparent; }
   .input-style-2::placeholder {
     font-size: 1.6rem;
-    color: #787781;
+    color: #fff;
     opacity: 1; }
 
 .input-style-2:focus {
+    border-bottom: 2px solid #787781;
   box-shadow: none;
   outline: none; }
 
@@ -2265,7 +2266,7 @@ p.mb-0.contact_itext {
     -webkit-filter: grayscale(1);
 }
 /*-------------------------------------------------------
-20. Breadcrumb css 
+20. Breadcrumb css
 ---------------------------------------------------------*/
 
 .v-card-section {
@@ -2273,7 +2274,7 @@ p.mb-0.contact_itext {
 
 .v-card-section.active {
   opacity: 1; }
-  
+
   /*---------------------------------------------------*/
 /*	mouse cursor animation
 /*---------------------------------------------------*/
@@ -2356,9 +2357,9 @@ p.mb-0.contact_itext {
 
 /* Track */
 ::-webkit-scrollbar-track {
-  background:#f7f7f7; 
+  background:#f7f7f7;
 }
- 
+
 /* Handle */
 ::-webkit-scrollbar-thumb {
 	background: #331b88 !important;
