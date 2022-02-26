@@ -918,6 +918,7 @@ footer.footer-2,
 
 .hero-section-bg {
     background-image: url(img/header-bg.jpg);
+    /*background-image: url("https://themetum.com/willam/new-sidebar/img/header-bg.jpg");*/
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
