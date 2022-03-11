@@ -2141,6 +2141,7 @@ ul.work_menu {
 .work_box .work_img {
     position: relative;
     overflow: hidden;
+    border-radius: 10px;
 }
 
 .work_box .work_img:after {
@@ -2151,13 +2152,13 @@ ul.work_menu {
     position: absolute;
     top: 0;
     left: 0;
-    border-radius: 5px;
+    border-radius: 10px;
     transition: all 0.27s cubic-bezier(0.3, 0.1, 0.58, 1);
 }
 
 .work_box .work_img > img {
     transition: all 0.3s cubic-bezier(0.3, 0.1, 0.58, 1);
-    border-radius: 0;
+    border-radius: 10px;
 }
 
 .work_box .work_detail {
